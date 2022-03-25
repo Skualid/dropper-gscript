@@ -22,10 +22,9 @@ Primero hay que instalar GScript (preferiblemente con Docker):
 docker pull gen0cide/gscript:v1
 ```
 
-Creamos un directorio para intercambiar el .tgz con el contenedor y una vez dentro ejecutamos:
+Creamos un directorio para intercambiar los ficheros con el contenedor y una vez dentro ejecutamos:
 
 ```shell
-tar xvzf dropper.tgz
 cd dropper
 gscript compile --enable-logging -o $(pwd)/evil killswitch.gs fwdown.gs payload.gs
 ```
