@@ -8,7 +8,7 @@ Este GScript solamente comprueba si existe una url y si contiene la palabra "OFF
 
 ## B) Intentar elevar privilegios con sudo para desactivar el firewall de Ubuntu.
 
-Este GScript intenta desabilitar el firewall de Ubuntu ejecutando el comando **"sudo -n ufw disable"**. Si no puede desabilitarlo o no, la siguiente etapa se ejecuta.
+Este GScript intenta desabilitar el firewall de Ubuntu ejecutando el comando **"sudo -n ufw disable"**. Si puede desabilitarlo o no, la siguiente etapa se ejecuta.
 
 ## C) Ejecutar un payload que es una puerta trasera TCP.
 
